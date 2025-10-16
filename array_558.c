@@ -27,3 +27,4 @@ int main()
 	printf("\nTotal: %d\n",total);
 	return 0;
 }
+
