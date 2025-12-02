@@ -36,9 +36,8 @@ float evaluatePostfixExp(const char* exp) {
                 printf("STACK UNDERFLOW\n");
                 exit(1);
             }
-            op2 = pop();  // Second operand
-            op1 = pop();  // First operand
-
+            op2 = pop();
+            op1 = pop();
             switch (exp[i]) {
                 case '+': value = op1 + op2; break;
                 case '-': value = op1 - op2; break;
