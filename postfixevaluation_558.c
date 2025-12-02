@@ -22,8 +22,7 @@ float evaluatePostfixExp(const char* exp) {
     int i = 0;
     float op1, op2, value;
 
-    while (exp[i] != '\0') {
-        // Skip whitespace
+    while (exp[i] != '\0') {
         if (exp[i] == ' ') {
             i++;
             continue;
